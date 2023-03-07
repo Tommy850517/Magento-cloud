@@ -36,8 +36,8 @@
 * 一次啟用所有docker container
   * docker compose up
 * 查看container狀態
- * docker ps
+  * docker ps
 * 停下docker container
- * docker compose down
+  * docker compose down
 * 刪除docker container
- * docker compose rm
+  * docker compose rm
