@@ -26,4 +26,5 @@
         },
         "packages.geissweb.de": {
             "username": "pubilc ID",
-            "password": "private ID"}}}
+            "password": "private ID" } } }
+* Run composer update
