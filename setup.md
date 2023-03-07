@@ -24,10 +24,6 @@
             "username": "pubilc ID",
             "password": "private ID"
         },
-
         "packages.geissweb.de": {
             "username": "pubilc ID",
-            "password": "private ID"
-        }
-       } 
-      }
+            "password": "private ID"}}}
