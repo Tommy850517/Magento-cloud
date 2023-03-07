@@ -16,3 +16,18 @@
   * switch to the project file
   * magento-cloud environment:list  #you can see the existing branch
   * magento-cloud checkout <branch-ID>
+ 
+* Create an auth.json file 
+  * {
+    "http-basic": {
+        "repo.magento.com": {
+            "username": "pubilc ID",
+            "password": "private ID"
+        },
+
+        "packages.geissweb.de": {
+            "username": "pubilc ID",
+            "password": "private ID"
+        }
+       } 
+      }
