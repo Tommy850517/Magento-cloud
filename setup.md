@@ -28,3 +28,6 @@
             "username": "pubilc ID",
             "password": "private ID" } } }
 * Run composer update
+ 
+* Build docker file 
+  * ./vendor/bin/ece-docker build:compose
