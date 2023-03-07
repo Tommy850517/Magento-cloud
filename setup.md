@@ -31,3 +31,13 @@
  
 * Build docker file 
   * ./vendor/bin/ece-docker build:compose
+  * 檢查是否有 docker-compose.yml file
+ 
+* 一次啟用所有docker container
+  * docker compose up
+* 查看container狀態
+ * docker ps
+* 停下docker container
+ * docker compose down
+* 刪除docker container
+ * docker compose rm
