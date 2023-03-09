@@ -39,5 +39,7 @@
   * docker ps
 * 停下docker container
   * docker compose down
+* 重啟docker container
+  * docker compose start
 * 刪除docker container
   * docker compose rm
