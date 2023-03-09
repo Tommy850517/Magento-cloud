@@ -35,11 +35,31 @@
  
 * 一次啟用所有docker container
   * docker compose up -d
-* 查看container狀態
-  * docker ps
-* 停下docker container
-  * docker compose down
-* 重啟docker container
-  * docker compose start
-* 刪除docker container
-  * docker compose rm
+ 
+* 將專案複製到container內
+  * ./bin/magento-docker copy-to --all
+* Update docker setup:
+  * ./bin/magento setup:upgrade
+* compile code
+  * ./bin/magento setup:di:compile
+* Deploy static content:
+  * ./bin/magento setup:static-content:deploy
+  * ./bin/magento setup:static-content:deploy -f
+* Update index:
+  * ./bin/magento indexer:reindex
+* Flush cache:
+  * ./bin/magento cache:flush
+* i18n collection:
+  * ./bin/magento i18n:collect-phrases -o code_zyxel.csv app/code/Zyxel
+  * ./bin/magento i18n:collect-phrases -o design_zyxel.csv app/design/frontend/Zyxel/default
+ 
+ 
+* Else
+  * 查看container狀態
+    * docker ps
+  * 停下docker container
+    * docker compose down
+  * 重啟docker container
+    * docker compose start
+  * 刪除docker container
+    * docker compose rm
