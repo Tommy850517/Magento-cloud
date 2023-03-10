@@ -52,8 +52,8 @@
 * i18n collection:
   * ./bin/magento i18n:collect-phrases -o code_zyxel.csv app/code/Zyxel
   * ./bin/magento i18n:collect-phrases -o design_zyxel.csv app/design/frontend/Zyxel/default
- 
- 
+* 進bash 
+  * docker-compose run --rm deploy bash
 * Else
   * 查看container狀態
     * docker ps
