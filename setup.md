@@ -39,6 +39,8 @@
  
 * 將專案複製到container內
   * ./bin/magento-docker copy-to --all
+* 進bash 
+  * docker-compose run --rm deploy bash
 * Update docker setup:
   * ./bin/magento setup:upgrade
 * compile code
@@ -53,13 +55,13 @@
 * i18n collection:
   * ./bin/magento i18n:collect-phrases -o code_zyxel.csv app/code/Zyxel
   * ./bin/magento i18n:collect-phrases -o design_zyxel.csv app/design/frontend/Zyxel/default
-* 進bash 
-  * docker-compose run --rm deploy bash
+
+ 
 * Else
   * 查看container狀態
     * docker ps
   * 停下docker container
-    * docker compose down
+    * docker compose stop
   * 重啟docker container
     * docker compose start
   * 刪除docker container
