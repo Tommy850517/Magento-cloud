@@ -30,7 +30,8 @@
 * Run composer update
  
 * Build docker file 
-  * ./vendor/bin/ece-docker build:compose --mode="developer" --sync-engine="mutagen" (developer:允許write data, mutagen:同步數據)
+  * ./vendor/bin/ece-docker 'build:compose' --with-entrypoint --mode=developer --with-cron --sync-engine=mutagen --no-varnish --port=80 
+     (developer:允許write data, mutagen:同步數據)
   * 檢查是否有 docker-compose.yml file
  
 * 一次啟用所有docker container
