@@ -41,6 +41,9 @@
   * ./bin/magento-docker copy-to --all
 * 進bash 
   * docker-compose run --rm deploy bash
+* 設定資料庫user
+  * bin/magento admin:user:create --admin-firstname={{FIRST_NAME}} --admin-lastname={{LAST_NAME}} --admin-email={{EMAIL}} --admin-user={{LOGIN_ACCOUNT}} --admin-password={{PASSWORD}}
+* 匯入資料庫
 * Update docker setup:
   * ./bin/magento setup:upgrade
 * compile code
