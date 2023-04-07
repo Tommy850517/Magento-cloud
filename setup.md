@@ -5,7 +5,7 @@
   * . ~/.bash_profile
   
 * log in
-  * magento-cloud
+  * magento-cloud login
 
 * Set Authentication keys 
   * [document](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/authentication-keys.html?lang=en#composer-auth-environment-variable)
