@@ -17,6 +17,9 @@
   * magento-cloud environment:list  #you can see the existing branch
   * magento-cloud checkout <branch-ID>
  
+* Dump integration 2 db
+  * magento-cloud db:dump
+ 
 * Create an auth.json file 
   * {
     "http-basic": {
