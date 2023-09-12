@@ -7,7 +7,10 @@
 * log in
   * magento-cloud login
 
-* Set Authentication keys 
+* Set Authentication keys
+  *  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  *  magento-cloud ssh-key:add ~/.ssh/id_rsa.pub
+  *  [document](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)
   * [document](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/authentication-keys.html?lang=en#composer-auth-environment-variable)
 
 * Clone the project
