@@ -66,7 +66,9 @@
   * ./bin/magento i18n:collect-phrases -o code_zyxel.csv app/code/Zyxel
   * ./bin/magento i18n:collect-phrases -o design_zyxel.csv app/design/frontend/Zyxel/default
 
- 
+* Apply Patches
+  * ./vendor/bin/ece-patches apply
+    
 * Else
   * 查看container狀態
     * docker ps
